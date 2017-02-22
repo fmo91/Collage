@@ -1,0 +1,6 @@
+framework module Pods_Collage_Tests {
+  umbrella header "Pods-Collage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

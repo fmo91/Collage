@@ -42,11 +42,11 @@
 		722A11FC2A654A1C1C23D2EC /* Pods_Collage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAF8CE830C453E675F8E784 /* Pods_Collage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB5CCE318ADCDF0180E793A /* Pods-Collage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Collage_Tests/Pods-Collage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D44569AFA6C8A8B78FA76962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D44569AFA6C8A8B78FA76962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D704AF0DA272DCD422CD2F44 /* Pods-Collage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Collage_Example/Pods-Collage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DCD06FA1878915E7657E6205 /* Pods-Collage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Collage_Tests/Pods-Collage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2C70DFFB0EE9D509E7CF4F5 /* Collage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Collage.podspec; path = ../Collage.podspec; sourceTree = "<group>"; };
-		E8C920CF44B433E013ABDE11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2C70DFFB0EE9D509E7CF4F5 /* Collage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Collage.podspec; path = ../Collage.podspec; sourceTree = "<group>"; };
+		E8C920CF44B433E013ABDE11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

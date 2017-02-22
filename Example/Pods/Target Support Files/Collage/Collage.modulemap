@@ -1,0 +1,6 @@
+framework module Collage {
+  umbrella header "Collage-umbrella.h"
+
+  export *
+  module * { export * }
+}

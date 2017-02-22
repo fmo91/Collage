@@ -1,0 +1,6 @@
+framework module Pods_Collage_Example {
+  umbrella header "Pods-Collage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

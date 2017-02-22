@@ -1,0 +1,16 @@
+PODS:
+  - Collage (0.1.0)
+
+DEPENDENCIES:
+  - Collage (from `../`)
+
+EXTERNAL SOURCES:
+  Collage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Collage: d896cd3f8ed7451fdaa4a10231389de0cbb9ccc2
+
+PODFILE CHECKSUM: 895508b03952850ab4c56837db71792d9f5b7a4b
+
+COCOAPODS: 1.1.1
