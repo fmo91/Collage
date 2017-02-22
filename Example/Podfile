@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Collage_Example' do
+  pod 'Collage', :path => '../'
+
+  target 'Collage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
