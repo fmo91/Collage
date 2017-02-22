@@ -9,5 +9,7 @@
 import Foundation
 
 public protocol Renderable {
-    var resultImage: UIImage { get }
+    var size: CGSize { get }
+    
+    func getImage(completionHandler: @escaping (UIImage?) -> Void)
 }
